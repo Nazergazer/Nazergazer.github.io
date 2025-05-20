@@ -1,0 +1,96 @@
+<!-- Informs the web browser about the HTML -->
+<!DOCTYPE html>
+<!-- This improve accessibility to the website by stating the language is English -->
+<html lang="en">
+<head>
+<!-- This also improve accessibility to the website by automatically adjusting the size of the website to make it fit all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trendly Stats - Homepage</title>
+  <!-- Linking CSS to the HTML -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <div class="navbar">
+    <div>
+      <img src="Logo.jpg" alt="Trendly Logo" style="height: 40px; vertical-align: middle;">
+      <span style="margin-left: 10px; font-size: 22px; font-weight: bold;">Trendly Stats</span>
+    </div>
+    <div>
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  </div>
+
+  <!-- Screen Section (In front of the background) -->
+  <div class="screen-section">
+    <div class="inscreen-text">
+      <h1>Welcome to Trendly Stats, where you can discover what's trending on YouTube.</h1>
+      <h2>Click start now to start exploring!</h2>
+      <h2>
+        <a href="Topics page.html" class="button-link">Start Now</a>
+        <span onclick="document.getElementById('tutorial').scrollIntoView();">Tutorial</span>
+      </h2>
+    </div>
+    <p style="position: absolute; bottom: 40px; width: 100%; text-align: center; font-size: 16px; color: #f0f0f0;">
+      ↓ Scroll down to see more information ↓
+    </p>
+  </div>
+
+  <!-- Tutorial Section and Information About The Website Section-->
+  <div class="section">
+    <div class="fade-in">
+      <h1><strong>Information about the website</strong></h1>
+      <p><strong>What is Trendly Stats?</strong></p>
+      <p>Trendly Stats is a website that uses simple data analysis and comparisons to help people explore popular YouTube topics. It provides clear graphics, insights, and information to help you explore YouTube, whether you're looking for content ideas or just curious about trends.</p>
+
+      <p><strong>What is YouTube?</strong><br>
+      YouTube is an American video-sharing platform where you can upload, watch, and share videos owned by Google. As of January 2025, the platform has 2.53 billion monthly active users worldwide. The enormous number of videos available on YouTube is one of the many factors contributing to its popularity. YouTube receives 100 hours of video uploads every minute on average, so there's always something new to watch!</p>
+
+      <hr class="custom-hr" >
+
+      <div id="tutorial">
+        <h1><strong>Simple tutorial and information on each page</strong></h1>
+
+        <p><strong>Follow these steps to explore the website:</strong></p>
+
+        <p><strong>Homepage:</strong><br>
+        Click "Start Now" to begin.</p>
+
+        <p><strong>Information Page:</strong><br>
+        Browse popular topics and click on one to explore more details.</p>
+
+        <p><strong>Topic Page:</strong><br>
+        See views, likes, comments, and videos about that topic, plus examples.</p>
+
+        <p><strong>Topic Information Page:</strong><br>
+        Discover trends and graphs with extra insights about the topic.</p>
+
+        <p><strong>Compare Topics:</strong><br>
+        Pick two topics and compare them side-by-side.</p>
+
+        <p><strong>Navigation Bar:</strong><br>
+        Use the top and bottom nav bars to explore different pages.</p>
+
+        <p><strong>About The Website Page:</strong><br>
+        Find out more about how the site works and what it offers.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation Bar -->
+<div class="bottom-nav">
+    <div class="bottom-links">
+      <a href="Home page.html" class="button-link">Home</a>
+      <a href="Topics page.html" class="button-link">Topics</a>
+      <a href="ATW.html" class="button-link">About The Website</a>
+      <a href="Compare.html" class="button-link">Comparison Feature</a>
+    </div>
+  <p class="copyright">© 2025 Trendly Stats | All rights reserved</p>
+</div>
+
+</body>
+</html>
